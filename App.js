@@ -16,7 +16,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Text>To Do List</Text>
+      <Text style={styles.title}>To Do List</Text>
       <TextInput 
         style={styles.input}  // Input Text Field
         placeholder='Entrer le nom de votre tache'
